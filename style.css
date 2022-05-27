@@ -48,6 +48,17 @@ header .right p {
     margin: 0;
 }
 
+header .right address {
+    font-style: normal;
+}
+
+header .right address a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-style: normal;
+}
+
+
 header .right img {
     width: 150px;
     height: 150px;
@@ -62,4 +73,6 @@ header .right img {
     color: var(--primary);
     padding: 0.2em 0.5em;
     margin-top: 2em;
+    text-decoration: none;
+    font-style: normal;
 }
