@@ -6,6 +6,7 @@ body {
 
 :root {
     --primary: rgba(86, 145, 255, 0.8);
+    --primary-color: white;
 }
 
 nav ul {
@@ -23,17 +24,42 @@ nav ul li {
 
 .nav-menu {
     text-decoration: none;
-    color: white;
+    color: var(--primary-color);
 }
 
 header {
     display: flex;
-    padding: 1em;
+    padding: 0;
 }
 
-.left {
+header .left {
     flex-grow: 1;
     padding-left: 10em;
 }
 
-.right {}
+header .right {
+    padding: 0.2em 2em 2em 2em;
+    background-color: var(--primary);
+    text-align: center;
+    color: var(--primary-color);
+}
+
+header .right p {
+    margin: 0;
+}
+
+header .right img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% -2px;
+}
+
+.download {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: var(--primary);
+    padding: 0.2em 0.5em;
+    margin-top: 2em;
+}
