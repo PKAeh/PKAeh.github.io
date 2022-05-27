@@ -38,10 +38,14 @@ header .left {
 }
 
 header .right {
-    padding: 0.2em 2em 2em 2em;
+    padding: 0.2em 5em 5em 5em;
     background-color: var(--primary);
     text-align: center;
     color: var(--primary-color);
+}
+
+header .right h2 {
+    margin-bottom: 1ex;
 }
 
 header .right p {
@@ -60,11 +64,11 @@ header .right address a {
 
 
 header .right img {
-    width: 150px;
-    height: 150px;
     border-radius: 50%;
-    object-fit: cover;
-    object-position: 50% -2px;
+}
+
+.social {
+    margin-top: 1.5em;
 }
 
 .download {
@@ -72,7 +76,7 @@ header .right img {
     background-color: var(--primary-color);
     color: var(--primary);
     padding: 0.2em 0.5em;
-    margin-top: 2em;
+    margin-top: 1em;
     text-decoration: none;
     font-style: normal;
 }
