@@ -25,3 +25,15 @@ nav ul li {
     text-decoration: none;
     color: white;
 }
+
+header {
+    display: flex;
+    padding: 1em;
+}
+
+.left {
+    flex-grow: 1;
+    padding-left: 10em;
+}
+
+.right {}
