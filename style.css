@@ -85,7 +85,7 @@ header .right p {
 
 }
 
-header .right address a {
+address a {
     color: var(--primary-color);
     text-decoration: none;
     font-style: normal;
@@ -150,17 +150,36 @@ main {
     flex: 1;
 }
 
-.skill-item {
+.section-3 table,
+.section-3 progress {
+    width: 100%;
+}
+
+.section-3 th {
+    width: 15%;
+    text-align: right;
+    padding: 0.5em;
+}
+
+footer .container {
+
     display: flex;
+    background-color: var(--primary);
     align-items: center;
-
+    padding-bottom: 2em;
 }
 
-.skill-item p {
+.footer-social {
+    padding: 2em;
     flex-grow: 1;
-    margin: 0;
 }
 
-progress {
-    flex-grow: 5;
+.footer-contact {
+    flex-grow: 1;
+}
+
+.back-to-top img {
+    width: 40px;
+    margin-right: 2em;
+    margin-top: 5em;
 }
