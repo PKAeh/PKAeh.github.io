@@ -124,10 +124,43 @@ main {
     flex: 2;
 }
 
+.blchelor-degree h4,
+.advanced-cer h4,
+.syslink h4,
+.rueang-witthaya h4 {
+    margin: 1.5em 0 0 0;
+}
+
+.blchelor-degree p,
+.advanced-cer p,
+.syslink p,
+.rueang-witthaya p {
+    margin: 0;
+}
+
 .exp-right {
     flex: 2;
 }
 
+.rueang-witthaya h4 {
+    margin-top: 2em;
+}
+
 .wrapper {
     flex: 1;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+
+}
+
+.skill-item p {
+    flex-grow: 1;
+    margin: 0;
+}
+
+progress {
+    flex-grow: 5;
 }
