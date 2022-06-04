@@ -185,6 +185,10 @@ footer .container {
     margin-top: 5em;
 }
 
+hr {
+    width: 100%;
+}
+
 @media screen and (max-width: 600px) {
     nav ul {
         flex-direction: column;
