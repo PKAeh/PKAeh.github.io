@@ -189,6 +189,29 @@ hr {
     width: 100%;
 }
 
+.dash-list {
+    list-style-type: none;
+
+}
+
+.dash-list li {
+    text-indent: -5px;
+}
+
+.dash-list li::before {
+    content: "- ";
+    text-indent: -5px;
+}
+
+.section-4 {
+    display: flex;
+}
+
+.portfolio-section,
+.interests-section {
+    flex-grow: 1;
+}
+
 @media screen and (max-width: 600px) {
     nav ul {
         flex-direction: column;
@@ -217,7 +240,8 @@ hr {
     }
 
     main .container,
-    .section-2 {
+    .section-2,
+    .section-4 {
         display: block;
     }
 
@@ -240,4 +264,5 @@ hr {
     .back-to-top img {
         margin-right: 2em;
     }
+
 }
