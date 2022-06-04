@@ -247,13 +247,19 @@ hr {
 
     #about {
         margin-top: 0;
-    }
-
-    #skill {
         margin-bottom: 0;
     }
 
-    #edu {
+    .section-1 p {
+        margin-top: 0.5em;
+    }
+
+    #skill {
+        margin-bottom: 0.2em;
+    }
+
+    .section-2 h2,
+    .section-4 h2 {
         margin-bottom: 0;
     }
 
@@ -263,6 +269,14 @@ hr {
 
     .back-to-top img {
         margin-right: 2em;
+    }
+
+    .sub-header {
+        margin-top: 0.5em !important;
+    }
+
+    .dash-list {
+        margin-top: 0;
     }
 
 }
